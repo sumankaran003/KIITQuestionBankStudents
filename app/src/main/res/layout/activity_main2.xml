@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="in.karan.suman.kiitquestionbank.Main2Activity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#009f3d"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/toolbar"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+
+
+
+        android:backgroundTint="#ffffff"
+        app:srcCompat="@drawable/download"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="VIEW QUESTION PAPER\nFOR STUDENT USE"
+        android:textAlignment="center"
+        android:textColor="#00C9CA"
+        android:background="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#ffffff"
+        app:srcCompat="@drawable/upload"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:background="#ffffff"
+        android:text="UPLOAD QUESTION PAPER\nFOR ADMINISTRATIVE USE ONLY"
+        android:textAlignment="center"
+        android:textColor="#ED686E"
+        android:layout_below="@+id/imageButton1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
